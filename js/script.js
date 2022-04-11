@@ -29,6 +29,9 @@ function displayNext() {
   document.getElementById(current.data).classList.toggle("current");
 }
 
+/**
+ * A callback function for the checkbox that starts or stops the slide-show
+ */
 function togglePlaySlides() {
   if (intId) {
     clearInterval(intId);
